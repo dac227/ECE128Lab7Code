@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module bdc12to16bit(input  wire clk, input  wire rst, input wire en, input  wire [11:0] binary, output reg  [15:0] bcd, output reg rdy);
 
     // State Encoding
